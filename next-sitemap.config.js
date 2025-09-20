@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://www.asklyy.tech',
+  siteUrl: process.env.SITE_URL || 'https://www.anonbox.tech',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   exclude: [
@@ -29,7 +29,7 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      'https://www.asklyy.tech/sitemap.xml',
+      'https://www.anonbox.tech/sitemap.xml',
     ],
   },
   transform: async (config, path) => {

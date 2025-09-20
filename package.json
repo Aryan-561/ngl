@@ -1,18 +1,18 @@
 {
-  "name": "askly",
+  "name": "anonbox",
   "version": "1.0.0",
-  "description": "Askly - The ultimate fun platform for sending anonymous text messages! Share secrets, ask questions, and have entertaining conversations without revealing your identity.",
+  "description": "AnonBox - Professional anonymous feedback platform for workplace communication. Share honest feedback without revealing your identity to help improve team dynamics.",
   "keywords": [
-    "askly",
-    "anonymous text messages",
-    "fun messages",
-    "entertainment",
-    "secret questions",
+    "anonbox",
+    "anonymous feedback",
+    "professional feedback",
+    "workplace communication",
+    "team feedback",
     "anonymous chat",
-    "fun platform",
-    "text messages",
-    "anonymous fun",
-    "entertainment platform",
+    "professional platform",
+    "feedback messages",
+    "workplace improvement",
+    "professional platform",
     "nextjs",
     "typescript",
     "mongodb",
@@ -20,13 +20,13 @@
   ],
   "author": "HimanshuTamoli",
   "license": "MIT",
-  "homepage": "https://www.asklyy.tech",
+  "homepage": "https://www.anonbox.tech",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HimanshuTamoli/askly.git"
+    "url": "https://github.com/HimanshuTamoli/anonbox.git"
   },
   "bugs": {
-    "url": "https://github.com/HimanshuTamoli/askly/issues"
+    "url": "https://github.com/HimanshuTamoli/anonbox/issues"
   },
   "private": true,
   "scripts": {

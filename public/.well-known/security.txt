@@ -1,24 +1,24 @@
-Contact: mailto:security@asklyy.tech
+Contact: mailto:security@anonbox.tech
 Expires: 2025-12-31T23:59:59.000Z
-Encryption: https://www.asklyy.tech/pgp-key.txt
-Acknowledgments: https://www.asklyy.tech/security-acknowledgments
+Encryption: https://www.anonbox.tech/pgp-key.txt
+Acknowledgments: https://www.anonbox.tech/security-acknowledgments
 Preferred-Languages: en
-Canonical: https://www.asklyy.tech/.well-known/security.txt
-Policy: https://www.asklyy.tech/security-policy
+Canonical: https://www.anonbox.tech/.well-known/security.txt
+Policy: https://www.anonbox.tech/security-policy
 
 # Security Policy
 # We take security seriously. If you discover a security vulnerability,
 # please report it to us as described below.
 
 # Reporting Process
-# 1. Email us at security@asklyy.tech
+# 1. Email us at security@anonbox.tech
 # 2. Include detailed steps to reproduce the issue
 # 3. Do not disclose the vulnerability publicly until we've had a chance to address it
 # 4. We will respond within 48 hours
 
 # Scope
 # This security policy applies to:
-# - The main application at asklyy.tech
+# - The main application at anonbox.tech
 # - All subdomains
 # - API endpoints
 # - Third-party integrations

@@ -19,15 +19,15 @@ function Navbar() {
   shadow-md 
   text-black dark:text-white 
   p-4 ">
-      <div className="   flex flex-row justify-between items-center">
+      <div className="   flex flex-row justify-between items-center px-4">
 
         {/* Logo / Brand */}
         <Link href="/">
-          <div className="flex items-center space-x-2 md:mb-0">
+          <div className="flex items-center  md:mb-0">
             <Avatar className="w-12 h-12 flex justify-center items-center">
-              <AvatarImage src="/askly.svg" alt="Askly Logo" />
-              <span className="font-bold text-xl">Askly</span>
-              <AvatarFallback>AL</AvatarFallback>
+              <AvatarImage src="/askly.svg" alt="AnonBox Logo" />
+              <span className="font-bold text-xl">AnonBox</span>
+              <AvatarFallback>AB</AvatarFallback>
             </Avatar>
           </div>
         </Link>

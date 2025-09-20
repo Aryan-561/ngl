@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="  max-w-6xl mx-auto px-6 py-4 flex  md:flex-row items-center justify-between gap-4">
         {/* Left side */}
         <p className="font-bold text-black">
-          © {new Date().getFullYear()} Askly
+          © {new Date().getFullYear()} AnonBox
         </p>
 
         {/* Links */}
@@ -27,7 +27,7 @@ export default function Footer() {
             Privacy
           </a>
           <a
-            href="/terms"
+            href="/privacy"
             className="w-full sm:w-auto text-center
                border-0 sm:border-2 sm:border-black
                bg-transparent sm:bg-yellow-300

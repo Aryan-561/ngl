@@ -1,7 +1,7 @@
 {
-  "name": "Askly",
-  "short_name": "Askly",
-  "description": "Fun anonymous text messages and entertainment platform",
+  "name": "AnonBox",
+  "short_name": "AnonBox",
+  "description": "Professional anonymous feedback platform for workplace communication",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -26,7 +26,7 @@
       "type": "image/png"
     }
   ],
-  "categories": ["social", "communication", "entertainment"],
+  "categories": ["business", "communication", "productivity"],
   "lang": "en",
   "dir": "ltr"
 }

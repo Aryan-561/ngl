@@ -1,6 +1,5 @@
 'use client';
 
-
 import Particles from '@/components/ui/Particles';
 import ProfileUrl from '@/components/customui/ProfileUrl';
 import { ThreeDMarqueeDemo } from '@/components/customui/Bg';
@@ -15,29 +14,29 @@ import { Button } from '@/components/retroui/Button';
 import Link from 'next/link';
 import Footer from '@/components/customui/Footer';
 import SmoothSection from '@/components/customui/Scrolll';
-export default function Home() {
 
+export default function Home() {
   //add stats api call in future
   const { data } = useSession()
 
   const bubbles = [
     {
-      text: "Whom did you first cheat in li (be honest)?",
+      text: "How could our team improve communication?",
       rotate: "-6deg",
       pos: "top-40 left-10 sm:left-10"
     },
     {
-      text: "Which city would you bunk college to visit?",
+      text: "What processes are slowing down our productivity?",
       rotate: "6deg",
       pos: "top-40 right-10  sm:right-10"
     },
     {
-      text: "What’s the craziest excuse you gave to skip class?",
+      text: "Which meetings could be more effective?",
       rotate: "-8deg",
       pos: "bottom-20 left-12 sm:left-12"
     },
     {
-      text: "Who’s the friend you’d never trust with secrets?",
+      text: "What's the biggest challenge in your role?",
       rotate: "8deg", 
       pos: "bottom-20 right-12 sm:right-12 "
     },
@@ -59,6 +58,7 @@ export default function Home() {
     setMessages(statsApiCall(99, 111));
     setProposals(statsApiCall(34, 45));
   }, []);
+
   return (
     <div className="relative w-full min-h-screen">
       <div
@@ -101,53 +101,46 @@ export default function Home() {
                 src="/biggroup.jpeg"
                 alt="Picture of the author"
                 className=' w-[12rem] sm:w-[18rem]' />
-
             </div>
 
             <div
               className="text-3xl md:text-4xl lg:text-6xl font-bold "
               style={{ textShadow: '2px 4px 8px yellow', color: '#111' }}
             >
-              Send your love...
+              AnonBox.
             </div>
             <div
-
               className="text-3xl md:text-4xl lg:text-6xl font-bold  text-center"
               style={{ textShadow: '2px 4px 8px yellow', color: '#111' }}
             >
-              without your mommy finding out.
+              Professional feedback, safely.
             </div>
 
             <div
-
               className=" md:mt-4 text-base md:text-lg  mt-6 "
               style={{ textShadow: '1px 2px 4px #b59f00', color: '#111' }}
             >
-              Spill the tea, not your identity.
+              Share honest feedback without revealing your identity.
             </div>
             {data?.user ? <ProfileUrl classname='w-full' /> :
               <div className="flex  sm:w-3xl gap-2 justify-center items-center mt-5">
                 <div className="w-full">
                   <Input
-
                     type="text"
                     value={"http://localhost:3000/get.your.url"}
                     readOnly
                     className="flex-1 border w-full border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500/20"
                   />
                 </div>
-                <Link href={"/signup"}>    <Button variant={'outline'} >Login</Button></Link>
+                <Link href={"/signup"}><Button variant={'outline'} >Login</Button></Link>
               </div>
-
             }
             <div className="flex items-start justify-center sm:gap-2 text-gray-600 mt-3.5">
               <MessageCircleWarning className="w-4 h-4 flex-shrink-0 mt-0.5" />
               <p className="text-xs leading-snug max-w-xs sm:max-w-sm text-center sm:text-left">
-                Share this link with friends so they can send you messages anonymously.
+                Share this link with colleagues so they can send you anonymous feedback.
               </p>
             </div>
-
-
           </motion.section>
 
           <motion.section
@@ -166,13 +159,12 @@ export default function Home() {
               animate={{ textShadow: ["0 0 10px yellow", "0 0 20px yellow", "0 0 10px yellow"] }}
               transition={{ duration: 2, repeat: Infinity, repeatType: "loop" }}
             >
-              See what people are saying — messages scroll below in real time.
+              See what feedback is being shared — messages stream below in real time.
             </motion.h1>
             <div className="w-full max-w -4xl">
               <ThreeDMarqueeDemo />
             </div>
           </motion.section>
-
 
           <motion.section
             className="h-screen snap-start flex flex-col sm:justify-evenly items-center text-center px-4"
@@ -187,7 +179,7 @@ export default function Home() {
               animate={{ textShadow: ["0 0 10px yellow", "0 0 20px yellow", "0 0 10px yellow"] }}
               transition={{ duration: 2, repeat: Infinity, repeatType: "loop" }}
             >
-              All the Numbers We Couldn’t Hide (Like Your Lies)
+              The Power of Anonymous Insight — Real Impact Data
             </motion.h1>
 
             <div className='flex items-center justify-center'>
@@ -219,7 +211,7 @@ export default function Home() {
                     className="text-5xl md:text-6xl lg:text-7xl font-bold text-black"
                   />
                   <span className="mt-2 text-sm md:text-base text-gray-900 font-mono capitalize">
-                    Total Users
+                    Active Users
                   </span>
                 </div>
 
@@ -234,7 +226,7 @@ export default function Home() {
                     className="text-5xl md:text-6xl lg:text-7xl font-bold text-black"
                   />
                   <span className="mt-2 text-sm md:text-base text-gray-900 font-mono capitalize">
-                    Anonymous Messages
+                    Feedback Messages
                   </span>
                 </div>
 
@@ -249,14 +241,12 @@ export default function Home() {
                     className="text-5xl md:text-6xl lg:text-7xl font-bold text-black"
                   />
                   <span className="mt-2 text-sm md:text-base text-gray-900 font-mono capitalize">
-                    Proposals Sent
+                    Improvement Suggestions
                   </span>
                 </div>
               </div>
             </div>
           </motion.section>
-
-
 
           <section className="relative h-screen snap-start w-full flex flex-col justify-center items-center overflow-hidden">
             {/* Floating bubbles */}
@@ -284,7 +274,7 @@ export default function Home() {
 
             {/* Center content */}
             <motion.div
-              className="flex flex-col items-center gap-4 text-center mt-10" // ⬅ added margin-top
+              className="flex flex-col items-center gap-4 text-center mt-10"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1, delay: 0.5 }}
@@ -295,7 +285,6 @@ export default function Home() {
                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
               >
                 <Image
-                  // src="https://cdn.prod.website-files.com/5e51c674258ffe10d286d30a/5e532a4c258ffe237b8ef2c1_peep-2.svg"
                   src="https://cdn.prod.website-files.com/5e51c674258ffe10d286d30a/5e53539b550b7634d6f2aade_peep-25.png"
                   alt="profile"
                   width={200}
@@ -310,8 +299,8 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 1 }}
               >
-                <div>get to know</div>
-                <div>your friends...</div>
+                <div>understand your</div>
+                <div>workplace better...</div>
               </motion.div>
             </motion.div>
           </section>

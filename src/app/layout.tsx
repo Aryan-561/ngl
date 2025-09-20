@@ -6,45 +6,45 @@ import Navbar from "@/components/customui/Navbar";
 
 export const metadata: Metadata = {
   title: {
-    default: "Askly - Fun Anonymous Text Messages & Entertainment",
-    template: "%s | Askly"
+    default: "AnonBox - Professional Anonymous Feedback Platform",
+    template: "%s | AnonBox"
   },
-  description: "Askly is the ultimate fun platform for sending anonymous text messages! Share secrets, ask questions, and have entertaining conversations without revealing your identity. Join the fun!",
+  description: "AnonBox is the professional platform for anonymous workplace feedback. Share honest feedback without revealing your identity to help improve team dynamics and workplace communication.",
   keywords: [
-    "askly",
-    "anonymous text messages",
-    "fun messages",
-    "entertainment",
-    "secret questions",
+    "anonbox",
+    "anonymous feedback",
+    "professional feedback",
+    "workplace communication",
+    "team feedback",
     "anonymous chat",
-    "fun platform",
-    "text messages",
-    "anonymous fun",
-    "entertainment platform"
+    "professional platform",
+    "feedback messages",
+    "workplace improvement",
+    "professional platform"
   ],
   authors: [{ name: "HimanshuTamoli" }],
   creator: "HimanshuTamoli",
-  publisher: "Askly",
+  publisher: "AnonBox",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://www.asklyy.tech'),
+  metadataBase: new URL('https://www.anonbox.tech'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: "Askly - Fun Anonymous Text Messages & Entertainment",
-    description: "Askly is the ultimate fun platform for sending anonymous text messages! Share secrets, ask questions, and have entertaining conversations without revealing your identity.",
-    url: 'https://www.asklyy.tech',
-    siteName: 'Askly',
+    title: "AnonBox - Professional Anonymous Feedback Platform",
+    description: "AnonBox is the professional platform for anonymous workplace feedback. Share honest feedback without revealing your identity to help improve team dynamics and workplace communication.",
+    url: 'https://www.anonbox.tech',
+    siteName: 'AnonBox',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Askly Platform - Fun Anonymous Text Messages',
+        alt: 'AnonBox Platform - Professional Anonymous Feedback',
       },
     ],
     locale: 'en_US',
@@ -52,8 +52,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Askly - Fun Anonymous Text Messages & Entertainment",
-    description: "Askly is the ultimate fun platform for sending anonymous text messages! Share secrets, ask questions, and have entertaining conversations without revealing your identity.",
+    title: "AnonBox - Professional Anonymous Feedback Platform",
+    description: "AnonBox is the professional platform for anonymous workplace feedback. Share honest feedback without revealing your identity to help improve team dynamics and workplace communication.",
     images: ['/twitter-image.jpg'],
     creator: '@imarnav24',
   },
@@ -112,9 +112,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebApplication",
-              "name": "Askly",
-              "description": "Askly is the ultimate fun platform for sending anonymous text messages! Share secrets, ask questions, and have entertaining conversations without revealing your identity.",
-              "url": "https://www.asklyy.tech",
+              "name": "AnonBox",
+              "description": "AnonBox is the professional platform for anonymous workplace feedback. Share honest feedback without revealing your identity to help improve team dynamics and workplace communication.",
+              "url": "https://www.anonbox.tech",
               "applicationCategory": "SocialNetworkingApplication",
               "operatingSystem": "Web Browser",
               "offers": {

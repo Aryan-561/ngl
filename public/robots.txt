@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://www.asklyy.tech/sitemap.xml
+Sitemap: https://www.anonbox.tech/sitemap.xml
 
 # Disallow admin and API routes
 Disallow: /api/

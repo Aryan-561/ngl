@@ -12,14 +12,14 @@ interface SEOHeadProps {
 }
 
 export default function SEOHead({
-  title = "Askly - Fun Anonymous Text Messages & Entertainment",
-  description = "Askly is the ultimate fun platform for sending anonymous text messages! Share secrets, ask questions, and have entertaining conversations without revealing your identity.",
-  keywords = "askly, anonymous text messages, fun messages, entertainment, secret questions, anonymous chat, fun platform, text messages, anonymous fun, entertainment platform",
+  title = "AnonBox - Professional Anonymous Feedback Platform",
+  description = "AnonBox is the professional platform for anonymous workplace feedback. Share honest feedback without revealing your identity to help improve team dynamics and workplace communication.",
+  keywords = "anonbox, anonymous feedback, professional feedback, workplace communication, team feedback, anonymous chat, professional platform, feedback messages, workplace improvement, professional platform",
   ogImage = "/og-image.jpg",
-  ogUrl = "https://www.asklyy.tech",
+  ogUrl = "https://www.anonbox.tech",
   noIndex = false
 }: SEOHeadProps) {
-  const fullTitle = title.includes('Askly') ? title : `${title} | Askly`;
+  const fullTitle = title.includes('AnonBox') ? title : `${title} | AnonBox`;
   
   return (
     <Head>
@@ -34,7 +34,7 @@ export default function SEOHead({
       <meta property="og:image" content={ogImage} />
       <meta property="og:url" content={ogUrl} />
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="Askly" />
+      <meta property="og:site_name" content="AnonBox" />
       
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
