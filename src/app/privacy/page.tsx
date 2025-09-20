@@ -18,7 +18,7 @@ function PrivacyPage() {
               Privacy & Terms
             </Text>
             <Text as="p" className="text-gray-600 max-w-2xl mx-auto">
-              AnonBox is built on trust. Here's how we protect your privacy and maintain a safe environment for professional feedback.
+              AnonBox is built on trust. Here&apos;s how we protect your privacy and maintain a safe environment for professional feedback.
             </Text>
           </div>
 
