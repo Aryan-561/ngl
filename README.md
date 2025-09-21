@@ -1,8 +1,8 @@
-# 🎉 Askly
+# 🔒 AnonBox
 
-**Fun anonymous text messages platform** - Share secrets, ask questions, and have entertaining conversations without revealing your identity.
+**Professional anonymous feedback platform** - Share honest workplace feedback without revealing your identity to help improve team dynamics and communication.
 
-[![Askly](https://img.shields.io/badge/Askly-Fun%20Messages-blue?style=for-the-badge&logo=message-circle)](https://www.asklyy.tech)
+[![AnonBox](https://img.shields.io/badge/AnonBox-Professional%20Feedback-blue?style=for-the-badge&logo=message-circle)](https://www.anonbox.tech)
 [![Next.js](https://img.shields.io/badge/Next.js-15.4.5-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
 
@@ -10,8 +10,8 @@
 
 ```bash
 # Clone & Install
-git clone https://github.com/HimanshuTamoli/askly.git
-cd askly
+git clone https://github.com/HimanshuTamoli/anonbox.git
+cd anonbox
 npm install
 
 # Setup Environment
@@ -28,25 +28,26 @@ Open [http://localhost:3000](http://localhost:3000) 🎯
 
 ```mermaid
 graph TD
-    A[User Signs Up] --> B[Gets Unique Link]
-    B --> C[Shares Link with Friends]
-    C --> D[Friends Send Anonymous Messages]
-    D --> E[User Receives Messages in Dashboard]
-    E --> F[User Can View/Delete Messages]
+    A[Team Member Signs Up] --> B[Gets Unique Feedback Link]
+    B --> C[Shares Link with Colleagues]
+    C --> D[Colleagues Send Anonymous Feedback]
+    D --> E[User Receives Feedback in Dashboard]
+    E --> F[User Can Review/Act on Feedback]
     
-    G[Message Sender] --> H[Visits User's Link]
-    H --> I[Types Anonymous Message]
-    I --> J[Sends Message]
-    J --> K[Stays Completely Anonymous]
+    G[Feedback Sender] --> H[Visits Colleague's Link]
+    H --> I[Provides Anonymous Feedback]
+    I --> J[Sends Professional Feedback]
+    J --> K[Identity Remains Protected]
 ```
 
 ## ✨ Features
 
-- 🔒 **Anonymous Messaging** - Send messages without revealing identity
-- 👤 **Unique Profiles** - Get your own asklyy.tech/u/username link
-- 📊 **Message Analytics** - Track your message stats
-- 🎨 **Modern UI** - Beautiful, responsive design
-- ⚡ **Real-time Updates** - Live message notifications
+- 🔒 **Anonymous Feedback** - Share honest insights without revealing identity
+- 👤 **Professional Profiles** - Get your own anonbox.tech/u/username link
+- 📊 **Impact Analytics** - Track feedback engagement and trends
+- 🎨 **Clean Interface** - Professional, intuitive design
+- ⚡ **Real-time Updates** - Instant feedback notifications
+- 🛡️ **Safety First** - Zero tolerance for abuse or harassment
 
 ## 🛠️ Tech Stack
 
@@ -59,7 +60,7 @@ graph TD
 ## 📁 Project Structure
 
 ```
-askly/
+anonbox/
 ├── src/app/           # Next.js App Router
 ├── src/components/    # React Components
 ├── src/lib/          # Utilities & Config
@@ -78,7 +79,15 @@ RESEND_API_KEY=your_resend_api_key
 
 ## 🚀 Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/HimanshuTamoli/askly)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/HimanshuTamoli/anonbox)
+
+## 🎯 Use Cases
+
+- **Team Improvement** - Gather honest feedback about team processes
+- **Leadership Development** - Receive anonymous input on management style
+- **Workplace Culture** - Identify areas for organizational improvement
+- **Project Retrospectives** - Collect candid project feedback
+- **Communication Enhancement** - Improve team dynamics safely
 
 ## 📄 License
 
@@ -88,8 +97,8 @@ MIT License - see [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Made with ❤️ by [HimanshuTamoli](https://github.com/HimanshuTamoli)**
+**Built for better workplaces by [HimanshuTamoli](https://github.com/HimanshuTamoli)**
 
-[🌐 Website](https://www.asklyy.tech) • [📧 Support](mailto:support@asklyy.tech)
+[🌐 Website](https://www.anonbox.tech) • [📧 Support](mailto:support@anonbox.tech)
 
 </div>

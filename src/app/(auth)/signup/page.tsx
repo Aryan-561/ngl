@@ -91,7 +91,7 @@ function Signup() {
             <div className="flex justify-center items-center min-h-screen">
             <div className="sm:w-full w-fit border  p-2.5  max-w-md sm:p-5 space-y-8  rounded-lg shadow-md">
                 <div className="text-center pt-3 " >
-                    <h1 className="sm:text-4xl text-3xl font-extrabold tracking-tight lg:text-5xl mb-6 capitalize">join Askly</h1>
+                    <h1 className="sm:text-4xl text-3xl font-extrabold tracking-tight lg:text-5xl mb-6 capitalize">join AnonBox </h1>
                     <p className="mb-2">Sign up to continue your secret conversations</p>
                 </div>
 

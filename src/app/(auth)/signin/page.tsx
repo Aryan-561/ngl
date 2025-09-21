@@ -53,7 +53,7 @@ function Signin() {
                 {/* Header */}
                 <div className="text-center">
                     <h1 className="text-4xl md:text-5xl font-extrabold  tracking-widest mb-4 drop-shadow-[0_0px_5px_yellow]">
-                        Join Askly
+                        Join AnonBox
                     </h1>
                     <p className="text-black text-sm md:text-base">
                         Sign in to continue your secret conversations
